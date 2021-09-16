@@ -1,6 +1,6 @@
 #menu{
     float: left;
-    background-color: #dddddd;
+    background-color: #ffffff;
     border: solid 1px;
   
 }
@@ -31,6 +31,8 @@ background-position: 0 -102%;
 canvas{
     float: left;
     
+    border: 2px solid black;
+    margin-top: 10px;
 
 }
 

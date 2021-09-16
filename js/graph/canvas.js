@@ -52,7 +52,7 @@ class Canvas {
 
 
     clear() {
-        this.contextV.fillStyle = '#FFE4C4';
+        this.contextV.fillStyle = '#FFFFFF';
         this.contextV.fillRect(0, 0, this.canvas.width, this.canvas.height);
     }
 
