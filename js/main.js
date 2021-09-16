@@ -29,7 +29,7 @@ window.onload = function () {
     const canvas = new Canvas({ id: 'canvas', width: 800, height: 800, WINDOW, callbacks: { wheel, mousemove, mouseup, mousedown, mouseleave } });
     const graph3D = new Graph3D({ WINDOW });
     const ui = new UI({ canvas, callbacks: { move, printPoints, printEdges, printPolygons, printFigures } })
-    const SCENE = [sur.ellipticcylinder()
+    const SCENE = [sur.hyperbolicparaboloid(20)
         //sur.ellipticcylinder(),
         //sur.hyperboliccylinder(),
         //sur.parabolyccylinder(),
